@@ -13,5 +13,12 @@
                 <span th:text="${drink}">drinkin toString-metodia kutsutaan</span>
             </li>
         </ol>
+        
+        <h2>Add</h2>
+        
+        <form method="POST" th:action="@{/}">
+            <input type="text" name="name"/>
+            <input type="submit"/>
+        </form>
     </body>
 </html>
