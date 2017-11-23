@@ -10,6 +10,6 @@ public class DrinkkiController {
     @GetMapping("*")
     @ResponseBody
     public String home() {
-        return "Koti! x 2";
+        return "Koti! x 3";
     }
 }
